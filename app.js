@@ -1,4 +1,4 @@
-function sumTwoMinElem(array) {
+function sumTwoMinElements(array) {
     if (Array.isArray(array)){
         if (array.length > 1){
             return getSumMinTwoElements(array);
@@ -27,13 +27,13 @@ function getSumMinTwoElements(array){
 
 
 module.exports = {
-    sumTwoMinElem
+    sumTwoMinElements
 }
 
 
 function main(){
     var arr = [1,2,3,4,5];
-    console.log(sumTwoMinElem(arr));
+    console.log(sumTwoMinElements(arr));
 }
 
 main()
